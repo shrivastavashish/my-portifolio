@@ -21,7 +21,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typed", {
-    strings: ["Solution Architect.", "Cloud & Cyber Security Expert.", "Instructor."],
+    strings: ["Solution Architect.", "Cyber Security Expert.", "Instructor." , "Full Stack Developer."],
     typeSpeed: 70,
     loop: true,
     startDelay: 500,
