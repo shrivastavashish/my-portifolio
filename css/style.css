@@ -402,3 +402,33 @@ body {
 .subHeading {
   font-size: 20px;
 }
+#tech-stack .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#tech-stack .skill img {
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Adjust size as needed */
+  display: block; /* Ensure the image behaves like a block element */
+  margin: 0 auto 10px; /* Center the image horizontally and add margin below */
+}
+
+#tech-stack .skill p {
+  margin: 0; /* Remove default margin of paragraphs */
+}
+ .cool-effect {
+   margin-top: -70px;
+   margin-bottom: 30px;
+   font-size: 24px;
+   text-transform: uppercase;
+   transition: transform 0.3s ease;
+ }
+
+.cool-effect:hover {
+  transform: scale(1.1);
+}
+
+
